@@ -15,6 +15,22 @@ function exercise11() {
     //
     // Write code between the lines (below)
     // -----------------------------------------------------------------
+    let str1 = "",
+        str2 = "";
+
+
+    for (let i = 0; i < 8; i++) {
+        (i % 2 == 0) ? str1 += "#": str1 += "_";
+    }
+    for (let i = 0; i < 8; i++) {
+        (i % 2 != 0) ? str2 += "#": str2 += "_";
+    }
+    for (let i = 0; i < 4; i++) {
+        console.log(str1, str2)
+    }
+
+
+
 
     // -----------------------------------------------------------------
     // Write code between the lines (above)
@@ -25,8 +41,8 @@ function exercise11() {
     //
     //
 }
-
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-11
+exercise11()
 
 module.exports = exercise11;
