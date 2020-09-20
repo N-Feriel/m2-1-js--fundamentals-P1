@@ -7,7 +7,7 @@ function exercise7() {
     //
     // These are the hours alloted to each activity.
     // - Sleep between 22h and 5h
-    // - Eat at 6h, 13h and 18h
+    // - Eat at 6h, 12h and 18h
     // - The rest of the time is spent training.
     //
     // Expected Output
